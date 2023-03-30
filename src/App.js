@@ -34,14 +34,11 @@ function App() {
   return (
     <Card>
       <BirthCount length={BirthdayInformation.length} />
-      <div>
         {
           BirthdayInformation.map(obj=>
             <Profile id={obj.id} Name={obj.Name} Age={obj.Age} Profile_Image={obj.Profile_Image}></Profile>
           )
         }
-      </div>
-      
       <Button>Clear All</Button>
     </Card>
   );

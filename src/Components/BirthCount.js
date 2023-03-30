@@ -1,7 +1,7 @@
 import classses from './BirthCount.module.css'
 const BirthCount=(props)=>{
    return (
-    <h1 className={classses.BirthCount}>{props.length} Birthdays Today</h1>
+    <p className={classses.BirthCount}>{props.length} Birthdays Today</p>
    )
 };
 export default BirthCount;
