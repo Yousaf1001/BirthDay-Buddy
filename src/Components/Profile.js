@@ -4,10 +4,10 @@ import classes from './Profile.module.css'
 const Profile=(props)=>{
     return(
         <div key={props.id} className={classes.content_wrapper}>
-            <div><Img Profile_Image={props.Profile_Image}></Img></div>
+            <div  className={`${classes.box} ${classes.wrapper_Item}` }> <Img Profile_Image={props.Profile_Image}></Img></div>
             <div>
-            <p>{props.Name}</p>
-            <p>{props.Age}</p>
+            <p className={classes.namePara}>{props.Name}</p>
+            <p className={classes.agePara}>{props.Age}</p>
             </div>
             
         </div>

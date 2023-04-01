@@ -1,10 +1,25 @@
 .content_wrapper{
    padding-left: 6%;
+   /* border: 2px solid black; */
    display: flex;
 }
-.wrapper_content{
-
+.wrapper_Item{
+   padding-right: 2%;
 }
-.item{
+
+.box{
+   margin-bottom: 3%;
+}
+.namePara{
+   color:black;
+   font-weight:bold;
+   font-size: 25px;
+   /* border: 2px solid black; */
+   margin-bottom: 0px;
+}
+.agePara{
+   margin-top: 1%;
+   color:#626467;
+   /* border: 2px solid black; */
 
 }

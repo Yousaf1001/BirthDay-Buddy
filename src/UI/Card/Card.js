@@ -4,7 +4,7 @@ import classes from './Card.module.css';
 
 const Card = (props) => {
   return (
-    <div className={`${classes.card} ${props.className}`}>{props.children}</div>
+    <div className={`${props.count>0?classes.card:classes.card_lengthZero} ${props.className}`}>{props.children}</div>
   );
 };
 

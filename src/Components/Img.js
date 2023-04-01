@@ -6,8 +6,8 @@ const Img=(props)=>{
          className={classes.img}
          src={props.Profile_Image}
          alt=''
-         width='70px'
-         height='70px'
+         width='85px'
+         height='85px'
         ></img>
     )
 }

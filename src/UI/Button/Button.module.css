@@ -5,8 +5,8 @@
   color: white;
   padding: 0.1rem 2rem;
   cursor: pointer;
-  font-size: 16px;
-  border-radius: 8%;
+  font-size: 14px;
+  border-radius: 2%;
   width: 90%;
   margin:0px auto;
 }
@@ -30,3 +30,10 @@ button:active:disabled {
   color: #666666;
   cursor: not-allowed;
 } */
+.profile_Button{
+  margin-left: 6%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  padding: 0.8%;
+  /* border: 2px solid black; */
+}

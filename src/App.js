@@ -1,3 +1,4 @@
+import React,{useState} from "react";
 import Card from "./UI/Card/Card";
 import Button from './UI/Button/Button'
 import Profile from './Components/Profile'
@@ -30,16 +31,21 @@ function App() {
      Name:'Lola Gardner',
      Age:'29 years'}
   ]
-  
+  const submitHandler=(event)=>{
+
+     BirthdayInformation.splice(0,BirthdayInformation.length);
+     setProfileLength(0);
+  }
+  const [ProfileLength,setProfileLength]=useState(BirthdayInformation.length);
   return (
-    <Card>
-      <BirthCount length={BirthdayInformation.length} />
-        {
+    <Card count={ProfileLength}>
+      <BirthCount length={ProfileLength} />
+        {ProfileLength>0 &&
           BirthdayInformation.map(obj=>
             <Profile id={obj.id} Name={obj.Name} Age={obj.Age} Profile_Image={obj.Profile_Image}></Profile>
           )
         }
-      <Button>Clear All</Button>
+      <Button  onClick={submitHandler}>Clear All</Button>
     </Card>
   );
 }
