@@ -1,4 +1,12 @@
 .img {
     border-radius: 50%;
   }
-  
+
+/*Mobile Device Styling */
+@media screen and (max-width:600px) {
+  .img{
+    box-shadow: 2px 6px 14px -1px rgba(232,216,216,0.69);
+    -webkit-box-shadow: 2px 6px 14px -1px rgba(232,216,216,0.69);
+    -moz-box-shadow: 2px 6px 14px -1px rgba(232,216,216,0.69);
+  }
+}

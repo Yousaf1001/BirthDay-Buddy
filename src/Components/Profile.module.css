@@ -23,3 +23,15 @@
    /* border: 2px solid black; */
 
 }
+
+
+/* Mobile Device Styling*/
+@media screen and (max-width:600px) {
+   .namePara{
+      color:#aeb1b5;
+      font-weight:400;
+      font-size: 22px;
+      /* border: 2px solid black; */
+      margin-bottom: 0px;
+   }   
+}

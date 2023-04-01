@@ -35,5 +35,24 @@ button:active:disabled {
   margin-right: 4%;
   margin-bottom: 4%;
   padding: 0.8%;
+  box-shadow: 3px 6px 17px 0px rgba(227,209,209,0.69);
+  -webkit-box-shadow: 3px 6px 17px 0px rgba(227,209,209,0.69);
+  -moz-box-shadow: 3px 6px 17px 0px rgba(227,209,209,0.69);
   /* border: 2px solid black; */
+}
+
+/* Mobile device Styling*/
+@media screen and (max-width:600px){
+  .profile_Button{
+    background-color: rgb(54, 52, 52);
+    border-bottom: 1px solid rgba(232,216,216,0.69);
+    border-top: 1px solid rgb(38, 35, 35);
+    border-right: 1px solid rgba(232,216,216,0.69);
+    border-left: 1px solid rgba(232,216,216,0.69);
+    border-radius: 10%;
+    color:rgba(232,216,216,0.69);
+    width: 85%;
+    
+
+  }
 }

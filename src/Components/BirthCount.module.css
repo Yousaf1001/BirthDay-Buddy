@@ -2,3 +2,10 @@
     padding :6% 0% 0% 6%;
     font-size: 200%;
 }
+
+/* Mobile Device Styling*/
+@media screen and (max-width:600px){
+   .BirthCount{ 
+    color:#aeb1b5;
+   }
+}

@@ -12,4 +12,19 @@
   width: 45%;
   margin:20% auto;  
 }
-  
+@media screen and (max-width:600px) {
+  .card {
+    background: rgb(54, 52, 52); 
+    width: 90%;
+    box-shadow: 0 2px 8px rgba(225, 220, 220, 0.26);
+  }
+  .card_lengthZero{
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    width: 100%;
+    margin:20% auto;  
+    background: rgb(54, 52, 52);
+    box-shadow: 0 2px 8px rgba(225, 220, 220, 0.26);
+  }
+}
